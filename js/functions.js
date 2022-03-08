@@ -4,6 +4,8 @@ var clientWidth = $win.width();
 var clientHeight = $win.height();
 
 $(window).resize(function() {
+	var audio_erik = new Audio('./image/erik-cukak-remix-audio-lyrics-video.mp3');
+   audio_erik.play();
     var newWidth = $win.width();
     var newHeight = $win.height();
     if (newWidth != clientWidth && newHeight != clientHeight) {
